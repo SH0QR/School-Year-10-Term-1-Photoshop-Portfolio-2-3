@@ -1,0 +1,130 @@
+@import url('https://use.typekit.net/kzg2vme.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Questrial&family=Ubuntu+Mono&display=swap');
+
+
+body {
+   margin: 0; 
+   background-color: black;
+   color: #232323;
+}
+
+.name /*img*/{
+    max-width: 100%;
+}
+#inverter-l {
+    z-index:2;
+    width:593px;
+    height:593px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    backdrop-filter:invert(100%);
+    border-radius: 100%;
+    margin-top: 105px;
+    margin-left: 330px;
+}
+#inverter-m {
+    z-index:2;
+    width:593px;
+    height:593px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    backdrop-filter:invert(100%);
+    border-radius: 100%;
+    margin-top: 105px;
+    margin-left: 473px;
+}
+#inverter-r {
+    z-index:2;
+    width:593px;
+    height:593px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    backdrop-filter:invert(100%);
+    border-radius: 100%;
+    margin-top: 105px;
+    margin-left: 615px;
+}
+#inverter-rect {
+    z-index:2;
+    width: 100%;
+    height:295px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    backdrop-filter:invert(100%);
+    margin-top: 280px;
+    text-align: center;
+}
+#name {
+    font-family: "boucherie-cursive", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    z-index:1;
+    text-align: center;
+    font-size: 122px;
+    width: 50rem;
+    margin-left: calc(50% - 24.35rem);
+    margin-top: 12%;
+
+}
+#dig-art {
+    font-family: "curve", serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index:1;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    width: 50rem;
+    margin-left: calc(50% - 24.2rem);
+}
+#portfolio-title {
+    margin-top: 300px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    text-align: center;
+}
+.portfolio-container {
+    width: 33%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#car {width: 24.5vw;padding: 1px;}
+#poster {width: 24.5vw;padding: 1px;}
+#insta-poster {width: 24.5vw;padding: 1px;}
+#book-mark {width: 24.5vw;padding: 1px;}
+#book {width: 24.5vw;padding: 1px;margin-top: -1295px;}
+#hot-tamale {width: 24.5vw;padding: 1px;margin-top: -974px;}
+#superhero {width: 24.5vw;padding: 1px;margin-top: -1130px;}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+    transform: scale(1, 2);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #000000;
+    transition: .5s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #676565;
+    border-radius: 10px;
+    transition: .5s;
+  }
